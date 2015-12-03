@@ -30,7 +30,7 @@ body {
 a{color:#000; text-decoration:none}
 a:hover{color:#f6921c; }
 .header {background: #f1f1f1;padding: 10px;border-bottom: solid #ccc 1px;box-shadow: 0 0 2px #ccc;}
-.search-view {background: #fff none repeat scroll 0 0;padding: 10px;}
+.search-bar{background: #fff none repeat scroll 0 0;padding: 10px;}
 input[type="text"]{padding:5px; border:solid #ccc 1px;}
 ul{margin:0;padding:0}
 ul li{margin:0;padding:10px; list-style:none; background:#fff; border-bottom:solid #ccc 1px }
