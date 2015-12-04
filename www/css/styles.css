@@ -159,6 +159,8 @@ li>a * {
 	font-size:14px;
 	text-decoration:none;
 	text-shadow:1px 1px 0px #ffffff;
+	display:block;
+	cursor:pointer
 }
 .button:hover {
 	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #dfdfdf), color-stop(1, #ededed) );
@@ -195,3 +197,7 @@ li>a.tappable-active {
     color: #fff;
     background-color: #f6921c;
 }
+
+.header-button {margin: 5px;}
+img.employee-image {float: left;margin: 10px;border: solid #f1f1f1 1px;padding: 2px; }
+.emp-details{float:left; margin-top:5px; display:block; width:auto}

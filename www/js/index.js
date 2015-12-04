@@ -24,9 +24,17 @@ var app = {
     }
 	$(window).on('hashchange', $.proxy(this.route, this));
   },
+  showAlert: function (message, title) {
+    if (navigator.notification) {
+        navigator.notification.alert(message, null, title, 'OK');
+    } else {
+        alert(title ? (title + ": " + message) : message);
+    }
+ },
  route: function() {
     var hash = window.location.hash;
     if (!hash) {
+		 
         $('body').html(new HomeView(this.store).render().el);
         return;
     }
